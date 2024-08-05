@@ -14,6 +14,7 @@
 		76861F342C5905670035DC5B /* FirstIOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76861F332C5905670035DC5B /* FirstIOSAppTests.swift */; };
 		76861F3E2C5905670035DC5B /* FirstIOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76861F3D2C5905670035DC5B /* FirstIOSAppUITests.swift */; };
 		76861F402C5905670035DC5B /* FirstIOSAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76861F3F2C5905670035DC5B /* FirstIOSAppUITestsLaunchTests.swift */; };
+		76861F4D2C59086B0035DC5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76861F4C2C59086B0035DC5B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		76861F392C5905670035DC5B /* FirstIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76861F3D2C5905670035DC5B /* FirstIOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSAppUITests.swift; sourceTree = "<group>"; };
 		76861F3F2C5905670035DC5B /* FirstIOSAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76861F4C2C59086B0035DC5B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				76861F242C5905660035DC5B /* ContentView.swift */,
 				76861F262C5905670035DC5B /* Assets.xcassets */,
 				76861F282C5905670035DC5B /* Preview Content */,
+				76861F4C2C59086B0035DC5B /* Main.storyboard */,
 			);
 			path = FirstIOSApp;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76861F4D2C59086B0035DC5B /* Main.storyboard in Resources */,
 				76861F2A2C5905670035DC5B /* Preview Assets.xcassets in Resources */,
 				76861F272C5905670035DC5B /* Assets.xcassets in Resources */,
 			);
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstIOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstIOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
